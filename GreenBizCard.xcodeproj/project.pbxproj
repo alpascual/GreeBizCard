@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		761A38261330688C0035BC9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A38251330688C0035BC9F /* UIKit.framework */; };
+		761A38281330688D0035BC9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A38271330688C0035BC9F /* Foundation.framework */; };
+		761A382A1330688D0035BC9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A38291330688D0035BC9F /* CoreGraphics.framework */; };
+		761A38301330688D0035BC9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 761A382E1330688D0035BC9F /* InfoPlist.strings */; };
+		761A38331330688D0035BC9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 761A38321330688D0035BC9F /* main.m */; };
+		761A38361330688D0035BC9F /* GreenBizCardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 761A38351330688D0035BC9F /* GreenBizCardAppDelegate.m */; };
+		761A38391330688D0035BC9F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 761A38371330688D0035BC9F /* MainWindow.xib */; };
+		761A383C1330688D0035BC9F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761A383B1330688D0035BC9F /* FirstViewController.m */; };
+		761A383F1330688D0035BC9F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761A383E1330688D0035BC9F /* SecondViewController.m */; };
+		761A38421330688D0035BC9F /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 761A38401330688D0035BC9F /* FirstView.xib */; };
+		761A38451330688D0035BC9F /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 761A38431330688D0035BC9F /* SecondView.xib */; };
+		761A384C1330688D0035BC9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A38251330688C0035BC9F /* UIKit.framework */; };
+		761A384D1330688D0035BC9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A38271330688C0035BC9F /* Foundation.framework */; };
+		761A384E1330688D0035BC9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A38291330688D0035BC9F /* CoreGraphics.framework */; };
+		761A38561330688D0035BC9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 761A38541330688D0035BC9F /* InfoPlist.strings */; };
+		761A38591330688D0035BC9F /* GreenBizCardTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 761A38581330688D0035BC9F /* GreenBizCardTests.h */; };
+		761A385B1330688D0035BC9F /* GreenBizCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 761A385A1330688D0035BC9F /* GreenBizCardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		761A384F1330688D0035BC9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 761A38181330688C0035BC9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 761A38201330688C0035BC9F;
+			remoteInfo = GreenBizCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		761A38211330688C0035BC9F /* GreenBizCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenBizCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		761A38251330688C0035BC9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		761A38271330688C0035BC9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		761A38291330688D0035BC9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		761A382D1330688D0035BC9F /* GreenBizCard-Info.plist */ = {isa = PBXFileReference; path = "GreenBizCard-Info.plist"; sourceTree = "<group>"; };
+		761A382F1330688D0035BC9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		761A38311330688D0035BC9F /* GreenBizCard-Prefix.pch */ = {isa = PBXFileReference; path = "GreenBizCard-Prefix.pch"; sourceTree = "<group>"; };
+		761A38321330688D0035BC9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		761A38341330688D0035BC9F /* GreenBizCardAppDelegate.h */ = {isa = PBXFileReference; path = GreenBizCardAppDelegate.h; sourceTree = "<group>"; };
+		761A38351330688D0035BC9F /* GreenBizCardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreenBizCardAppDelegate.m; sourceTree = "<group>"; };
+		761A38381330688D0035BC9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		761A383A1330688D0035BC9F /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		761A383B1330688D0035BC9F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		761A383D1330688D0035BC9F /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		761A383E1330688D0035BC9F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		761A38411330688D0035BC9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		761A38441330688D0035BC9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		761A384B1330688D0035BC9F /* GreenBizCardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenBizCardTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		761A38531330688D0035BC9F /* GreenBizCardTests-Info.plist */ = {isa = PBXFileReference; path = "GreenBizCardTests-Info.plist"; sourceTree = "<group>"; };
+		761A38551330688D0035BC9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		761A38571330688D0035BC9F /* GreenBizCardTests-Prefix.pch */ = {isa = PBXFileReference; path = "GreenBizCardTests-Prefix.pch"; sourceTree = "<group>"; };
+		761A38581330688D0035BC9F /* GreenBizCardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreenBizCardTests.h; sourceTree = "<group>"; };
+		761A385A1330688D0035BC9F /* GreenBizCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreenBizCardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		761A381E1330688C0035BC9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761A38261330688C0035BC9F /* UIKit.framework in Frameworks */,
+				761A38281330688D0035BC9F /* Foundation.framework in Frameworks */,
+				761A382A1330688D0035BC9F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761A38471330688D0035BC9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761A384C1330688D0035BC9F /* UIKit.framework in Frameworks */,
+				761A384D1330688D0035BC9F /* Foundation.framework in Frameworks */,
+				761A384E1330688D0035BC9F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		761A38161330688C0035BC9F = {
+			isa = PBXGroup;
+			children = (
+				761A382B1330688D0035BC9F /* GreenBizCard */,
+				761A38511330688D0035BC9F /* GreenBizCardTests */,
+				761A38241330688C0035BC9F /* Frameworks */,
+				761A38221330688C0035BC9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		761A38221330688C0035BC9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				761A38211330688C0035BC9F /* GreenBizCard.app */,
+				761A384B1330688D0035BC9F /* GreenBizCardTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		761A38241330688C0035BC9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				761A38251330688C0035BC9F /* UIKit.framework */,
+				761A38271330688C0035BC9F /* Foundation.framework */,
+				761A38291330688D0035BC9F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		761A382B1330688D0035BC9F /* GreenBizCard */ = {
+			isa = PBXGroup;
+			children = (
+				761A38341330688D0035BC9F /* GreenBizCardAppDelegate.h */,
+				761A38351330688D0035BC9F /* GreenBizCardAppDelegate.m */,
+				761A38371330688D0035BC9F /* MainWindow.xib */,
+				761A383A1330688D0035BC9F /* FirstViewController.h */,
+				761A383B1330688D0035BC9F /* FirstViewController.m */,
+				761A383D1330688D0035BC9F /* SecondViewController.h */,
+				761A383E1330688D0035BC9F /* SecondViewController.m */,
+				761A38401330688D0035BC9F /* FirstView.xib */,
+				761A38431330688D0035BC9F /* SecondView.xib */,
+				761A382C1330688D0035BC9F /* Supporting Files */,
+			);
+			path = GreenBizCard;
+			sourceTree = "<group>";
+		};
+		761A382C1330688D0035BC9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				761A382D1330688D0035BC9F /* GreenBizCard-Info.plist */,
+				761A382E1330688D0035BC9F /* InfoPlist.strings */,
+				761A38311330688D0035BC9F /* GreenBizCard-Prefix.pch */,
+				761A38321330688D0035BC9F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		761A38511330688D0035BC9F /* GreenBizCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				761A38581330688D0035BC9F /* GreenBizCardTests.h */,
+				761A385A1330688D0035BC9F /* GreenBizCardTests.m */,
+				761A38521330688D0035BC9F /* Supporting Files */,
+			);
+			path = GreenBizCardTests;
+			sourceTree = "<group>";
+		};
+		761A38521330688D0035BC9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				761A38531330688D0035BC9F /* GreenBizCardTests-Info.plist */,
+				761A38541330688D0035BC9F /* InfoPlist.strings */,
+				761A38571330688D0035BC9F /* GreenBizCardTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		761A38201330688C0035BC9F /* GreenBizCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761A385E1330688D0035BC9F /* Build configuration list for PBXNativeTarget "GreenBizCard" */;
+			buildPhases = (
+				761A381D1330688C0035BC9F /* Sources */,
+				761A381E1330688C0035BC9F /* Frameworks */,
+				761A381F1330688C0035BC9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenBizCard;
+			productName = GreenBizCard;
+			productReference = 761A38211330688C0035BC9F /* GreenBizCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		761A384A1330688D0035BC9F /* GreenBizCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761A38611330688D0035BC9F /* Build configuration list for PBXNativeTarget "GreenBizCardTests" */;
+			buildPhases = (
+				761A38461330688D0035BC9F /* Sources */,
+				761A38471330688D0035BC9F /* Frameworks */,
+				761A38481330688D0035BC9F /* Resources */,
+				761A38491330688D0035BC9F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				761A38501330688D0035BC9F /* PBXTargetDependency */,
+			);
+			name = GreenBizCardTests;
+			productName = GreenBizCardTests;
+			productReference = 761A384B1330688D0035BC9F /* GreenBizCardTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		761A38181330688C0035BC9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Al;
+			};
+			buildConfigurationList = 761A381B1330688C0035BC9F /* Build configuration list for PBXProject "GreenBizCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 761A38161330688C0035BC9F;
+			productRefGroup = 761A38221330688C0035BC9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				761A38201330688C0035BC9F /* GreenBizCard */,
+				761A384A1330688D0035BC9F /* GreenBizCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		761A381F1330688C0035BC9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761A38301330688D0035BC9F /* InfoPlist.strings in Resources */,
+				761A38391330688D0035BC9F /* MainWindow.xib in Resources */,
+				761A38421330688D0035BC9F /* FirstView.xib in Resources */,
+				761A38451330688D0035BC9F /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761A38481330688D0035BC9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761A38561330688D0035BC9F /* InfoPlist.strings in Resources */,
+				761A38591330688D0035BC9F /* GreenBizCardTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		761A38491330688D0035BC9F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		761A381D1330688C0035BC9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761A38331330688D0035BC9F /* main.m in Sources */,
+				761A38361330688D0035BC9F /* GreenBizCardAppDelegate.m in Sources */,
+				761A383C1330688D0035BC9F /* FirstViewController.m in Sources */,
+				761A383F1330688D0035BC9F /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761A38461330688D0035BC9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761A385B1330688D0035BC9F /* GreenBizCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		761A38501330688D0035BC9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 761A38201330688C0035BC9F /* GreenBizCard */;
+			targetProxy = 761A384F1330688D0035BC9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		761A382E1330688D0035BC9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761A382F1330688D0035BC9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		761A38371330688D0035BC9F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761A38381330688D0035BC9F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		761A38401330688D0035BC9F /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761A38411330688D0035BC9F /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		761A38431330688D0035BC9F /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761A38441330688D0035BC9F /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		761A38541330688D0035BC9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761A38551330688D0035BC9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		761A385C1330688D0035BC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		761A385D1330688D0035BC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		761A385F1330688D0035BC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GreenBizCard/GreenBizCard-Prefix.pch";
+				INFOPLIST_FILE = "GreenBizCard/GreenBizCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		761A38601330688D0035BC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GreenBizCard/GreenBizCard-Prefix.pch";
+				INFOPLIST_FILE = "GreenBizCard/GreenBizCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		761A38621330688D0035BC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GreenBizCard.app/GreenBizCard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GreenBizCardTests/GreenBizCardTests-Prefix.pch";
+				INFOPLIST_FILE = "GreenBizCardTests/GreenBizCardTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		761A38631330688D0035BC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GreenBizCard.app/GreenBizCard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GreenBizCardTests/GreenBizCardTests-Prefix.pch";
+				INFOPLIST_FILE = "GreenBizCardTests/GreenBizCardTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		761A381B1330688C0035BC9F /* Build configuration list for PBXProject "GreenBizCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761A385C1330688D0035BC9F /* Debug */,
+				761A385D1330688D0035BC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761A385E1330688D0035BC9F /* Build configuration list for PBXNativeTarget "GreenBizCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761A385F1330688D0035BC9F /* Debug */,
+				761A38601330688D0035BC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		761A38611330688D0035BC9F /* Build configuration list for PBXNativeTarget "GreenBizCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761A38621330688D0035BC9F /* Debug */,
+				761A38631330688D0035BC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 761A38181330688C0035BC9F /* Project object */;
+}

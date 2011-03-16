@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'GreenBizCardTests' target in the 'GreenBizCardTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
